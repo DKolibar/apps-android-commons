@@ -73,6 +73,14 @@ jobs:
       - name: Run Unit tests with unified coverage
         if: github.event_name != 'pull_request'
         run: ./gradlew -Pcoverage testBetaDebugUnitTestUnifiedCoverage --stacktrace
+      
+      - name: 'Upload Jacoco Reports as Artifact'
+        if: github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v3
+        with:
+          name: jacoco-report
+          path: app/build/reports/jacoco
+          retention-days: 1
 
       - name: Run Unit tests without unified coverage
         if: github.event_name == 'pull_request'
@@ -85,12 +93,7 @@ jobs:
           chmod +x codecov
           ./codecov -f "app/build/reports/jacoco/testBetaDebugUnitTestUnifiedCoverage/testBetaDebugUnitTestUnifiedCoverage.xml" -Z
       
-      - name: 'Upload Jacoco Reports as Artifact'
-        uses: actions/upload-artifact@v3
-        with:
-          name: jacoco-report
-          path: app/build/reports/jacoco
-          retention-days: 1
+
 
 #       - name: Generate betaDebug APK
 #         run: bash ./gradlew assembleBetaDebug --stacktrace
