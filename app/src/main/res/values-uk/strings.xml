@@ -521,9 +521,9 @@
   <string name="delete_helper_show_deletion_message_if">Номіновано %1$s до вилучення.</string>
   <string name="delete_helper_show_deletion_title_failed">Не вдалося</string>
   <string name="delete_helper_show_deletion_message_else">Неможливо запитати видалення.</string>
-  <string name="delete_helper_ask_spam_selfie">Селфі</string>
-  <string name="delete_helper_ask_spam_blurry">Розмито</string>
-  <string name="delete_helper_ask_spam_nonsense">Безглуздя</string>
+  <string name="delete_helper_ask_spam_selfie">селфі, яке не використовується в жодній статті</string>
+  <string name="delete_helper_ask_spam_blurry">повністю розмито</string>
+  <string name="delete_helper_ask_spam_nonsense">нісенітниця, абсолютно непридатна для будь-якої статті</string>
   <string name="delete_helper_ask_reason_copyright_press_photo">Фото з новин</string>
   <string name="delete_helper_ask_reason_copyright_internet_photo">Випадкове фото з інтернет</string>
   <string name="delete_helper_ask_reason_copyright_logo">Логотип</string>
@@ -721,6 +721,7 @@
   <string name="enter_description">Який ваш відгук?</string>
   <string name="your_feedback">Ваш відгук</string>
   <string name="mark_as_not_for_upload">Позначити як не для завантаження</string>
+  <string name="unmark_as_not_for_upload">Зняти позначку «Не для завантаження».</string>
   <string name="show_already_actioned_pictures">Показати вже виконані картинки</string>
   <string name="hiding_already_actioned_pictures">Приховування вже активованих картинок</string>
   <string name="no_more_images_found">Більше зображень не знайдено</string>
@@ -735,4 +736,5 @@
   <string name="request_user_block">Запит на блокування цього користувача</string>
   <string name="welcome_to_full_screen_mode_text">Ласкаво просимо до Повноекранного Режиму Вибору</string>
   <string name="full_screen_mode_zoom_info">Використовуйте два пальці для збільшення та зменшення масштабу.</string>
+  <string name="full_screen_mode_features_info">Швидко та довго гортайте, щоб виконати ці дії: \n- Left/Right: Перейти до попер/наст\n- Up: Вибрати\n- Down: Позначити як не для завантаження.</string>
 </resources>

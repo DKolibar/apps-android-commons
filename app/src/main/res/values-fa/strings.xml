@@ -36,7 +36,10 @@
   <string name="commons_github">صفحهٔ کدهای گیت‌هاب ویکی‌انبار</string>
   <string name="commons_logo">نشان ویکی‌انبار</string>
   <string name="commons_website">وب‌سایت ویکی‌انبار</string>
+  <string name="exit_location_picker">خروج از انتخابگر مکان</string>
   <string name="submit">ارسال</string>
+  <string name="add_another_description">توضیح دیگری را بیفزایید</string>
+  <string name="add_new_contribution">افزودن مشارکت جدید</string>
   <string name="appwidget_img">تصویر روز</string>
   <plurals name="uploads_pending_notification_indicator">
     <item quantity="one">%1$d پرونده در حال بارگذاری</item>
@@ -425,9 +428,9 @@
   <string name="upload_cancelled">بارگذاری لغو شد</string>
   <string name="delete_helper_show_deletion_title_success">موفق</string>
   <string name="delete_helper_show_deletion_title_failed">ناموفق</string>
-  <string name="delete_helper_ask_spam_selfie">یک سلفی</string>
-  <string name="delete_helper_ask_spam_blurry">تار</string>
-  <string name="delete_helper_ask_spam_nonsense">مهمل</string>
+  <string name="delete_helper_ask_spam_selfie" fuzzy="true">یک سلفی</string>
+  <string name="delete_helper_ask_spam_blurry" fuzzy="true">تار</string>
+  <string name="delete_helper_ask_spam_nonsense" fuzzy="true">مهمل</string>
   <string name="delete_helper_ask_reason_copyright_press_photo">عکس مطبوعاتی</string>
   <string name="delete_helper_ask_reason_copyright_internet_photo">عکس تصادفی از اینترنت</string>
   <string name="delete_helper_ask_reason_copyright_logo">لوگو</string>
