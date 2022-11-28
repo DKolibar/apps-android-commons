@@ -1,8 +1,8 @@
 package fr.free.nrw.commons.recentlanguages
 
 import android.content.Context
-import android.view.View
 import android.view.ViewGroup
+import android.widget.LinearLayout
 import android.widget.TextView
 import com.nhaarman.mockitokotlin2.whenever
 import fr.free.nrw.commons.TestCommonsApplication
@@ -33,7 +33,7 @@ class RecentLanguagesAdapterUnitTest {
     private lateinit var viewGroup: ViewGroup
 
     @Mock
-    private lateinit var convertView: View
+    private lateinit var convertView: LinearLayout
 
     @Mock
     private lateinit var textView: TextView
